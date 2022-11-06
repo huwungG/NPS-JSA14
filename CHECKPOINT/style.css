@@ -1,0 +1,42 @@
+/* 
+1.D
+2.D
+3.A
+4.A
+5.A
+6.A
+7.A
+8.A
+9.A
+10.B
+
+ */
+ .nav-bar img{
+    width: 16px;
+ }
+ img{
+    width: 300px;
+ }
+ .nav-bar ul li{
+    list-style: none;
+ }
+ .nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container .content .title{
+    text-align: center;
+    font-size: 30px;
+}
+.content{
+    max-width: 300px;
+    margin-left: 20px;
+    
+}
